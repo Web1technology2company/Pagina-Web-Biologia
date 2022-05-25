@@ -19,7 +19,7 @@
 .Text-Gen{
     padding-top: 30px;
     font-size: 40px;
-    text-align: center;
+
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -32,32 +32,20 @@
     font-size: 25px;
     color: #3a3a3a;
     font-family: 'Mukta', sans-serif;
-    text-align: center;
+
 }
 
 /* Hr */
 
 .hr{
-    margin: 70px;
+    margin: 50px;
 }
 
 /* Footer */
 
 .Footer{
     color: #505050;
-    text-align: center;
+
     font-size: 11px;
     font-family: 'Roboto Condensed', sans-serif;
-}
-
-
-.gallery{
-    display: grid;
-    gap: 1rem;
-    grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-}
-
-.featured{
-    grid-column: span 2;
 }
