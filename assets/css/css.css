@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Titulo */
+
+.Titulo{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Macondo', cursive;
+}
+
+/* Text General */
+
+.Text-Gen{
+    padding-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ /* Text Descripcion */
+
+
+.Descrp-Gen{
+    padding-top: 25px;
+    font-size: 25px;
+    color: #3a3a3a;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+
+/* Hr */
+
+.hr{
+    margin: 70px;
+}
+
+/* Footer */
+
+.Footer{
+    color: #505050;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.gallery{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.featured{
+    grid-column: span 2;
+}
